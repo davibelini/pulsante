@@ -7,15 +7,9 @@
 </main>
 
 <style>
-	:global(html) {
+	:global(body) {
 		box-sizing: border-box;
-	}
-	:global(*), :global(*):before, :global(*):after {
-		box-sizing: inherit;
-	}
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
+		padding: 0;
+		margin: 0;
 	}
 </style>
